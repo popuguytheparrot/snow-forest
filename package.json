@@ -1,0 +1,25 @@
+{
+  "name": "snowdom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/popuguytheparrot/snowdom",
+  "author": "popuguy",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "snowpack"
+  },
+  "dependencies": {
+    "effector": "20.9.1",
+    "effector-dom": "0.0.1",
+    "prettier": "^1.19.1"
+  },
+  "devDependencies": {
+    "snowpack": "cd1.0.2"
+  },
+  "browserslist": [
+    ">0.75%",
+    "not ie 11",
+    "not UCAndroid >0",
+    "not OperaMini all"
+  ]
+}
