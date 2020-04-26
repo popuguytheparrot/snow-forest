@@ -15,7 +15,7 @@ yarn prepare
 ```
 ### Usage
 
-Run `npx serve` to start server and serve application.
+Run `tarn start` to start server with live-reload and serve application.
 
 Edit code and refresh page to see changes
 
