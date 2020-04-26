@@ -6,7 +6,8 @@
   "author": "popuguy",
   "license": "MIT",
   "scripts": {
-    "prepare": "snowpack"
+    "prepare": "snowpack",
+    "start": "npx servor --reload"
   },
   "dependencies": {
     "effector": "^20.14.0",
