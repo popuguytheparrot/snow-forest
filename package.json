@@ -9,12 +9,12 @@
     "prepare": "snowpack"
   },
   "dependencies": {
-    "effector": "20.9.1",
-    "effector-dom": "0.0.1",
-    "prettier": "^1.19.1"
+    "effector": "^20.14.0",
+    "effector-dom": "^0.0.15"
   },
   "devDependencies": {
-    "snowpack": "1.0.2"
+    "prettier": "^2.0.5",
+    "snowpack": "^1.7.1"
   },
   "browserslist": [
     ">0.75%",
