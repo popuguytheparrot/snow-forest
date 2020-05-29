@@ -1,21 +1,19 @@
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/popuguytheparrot/snowdom) 
 
 # snowdom
->try using snowpack and effector
+>Try using snowpack and effector with effector-dom
 
 ## Get Started
 ### Installation
 * Install node_modules
-```
+```bash
 yarn install
 ```
-* Prepare snowpack modules
-```
-yarn prepare
-```
+
 ### Usage
 
-Run `yarn start` to start server with live-reload and serve application.
+Run `yarn start` to happy-hack.
 
-Edit code and refresh page to see changes
+## Production
+For use this template in production check this [article](https://www.snowpack.dev/#bundle-for-production)
 

@@ -1,7 +1,5 @@
-import { h, text } from "/web_modules/effector-dom.js";
+import { h } from 'effector-dom';
 
 export function Title() {
-  h("h1", () => {
-    text("Hello world!");
-  });
+  h('h1', { text: 'Hello world!' });
 }

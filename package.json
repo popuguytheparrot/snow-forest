@@ -1,26 +1,30 @@
 {
   "name": "snowdom",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "index.js",
   "repository": "https://github.com/popuguytheparrot/snowdom",
   "author": "popuguy",
   "license": "MIT",
   "scripts": {
-    "prepare": "snowpack",
-    "start": "npx servor --reload"
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "format": "prettier --write src/**/*.{js,jsx,ts,tsx}",
+    "lint": "prettier --check src/**/*.{js,jsx,ts,tsx}"
   },
   "dependencies": {
-    "effector": "^20.14.0",
+    "effector": "^20.15.6",
     "effector-dom": "^0.0.15"
   },
   "devDependencies": {
     "prettier": "^2.0.5",
-    "snowpack": "^1.7.1"
+    "snowpack": "^2.0.3"
   },
   "browserslist": [
-    ">0.75%",
-    "not ie 11",
+    "> 1%",
+    "not IE <= 11",
+    "not EDGE <= 18",
     "not UCAndroid >0",
-    "not OperaMini all"
+    "not dead",
+    "not op_mini all"
   ]
 }
