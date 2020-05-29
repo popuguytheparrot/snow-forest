@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "effector": "^20.15.6",
-    "effector-dom": "^0.0.15"
+    "forest": "^0.16.0"
   },
   "devDependencies": {
     "prettier": "^2.0.5",
