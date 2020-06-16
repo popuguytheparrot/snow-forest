@@ -5,9 +5,10 @@ import { app } from './app';
 const root = document.getElementById('app');
 
 if (import.meta.hot) {
-  import.meta.hot.accept(() => {
-    root.innerHTML = ''
-  })
+  import.meta.hot.accept();
+  import.meta.hot.dispose(() => {
+    root.innerHTML = '';
+  });
 }
 
 using(root, app);
