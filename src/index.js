@@ -1,8 +1,13 @@
-import './app';
+import { using } from 'forest';
+
+import { app } from './app';
+
+const root = document.getElementById('app');
 
 if (import.meta.hot) {
-  import.meta.hot.accept();
-  import.meta.hot.dispose(() => {
-    document.body.remove();
-  });
+  import.meta.hot.accept(() => {
+    root.innerHTML = ''
+  })
 }
+
+using(root, app);
