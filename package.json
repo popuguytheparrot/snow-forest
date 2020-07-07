@@ -12,12 +12,12 @@
     "lint": "prettier --check src/**/*.{js,jsx,ts,tsx}"
   },
   "dependencies": {
-    "effector": "^20.16.2",
-    "forest": "^0.16.3"
+    "effector": "^21.0.1",
+    "forest": "^0.17.0"
   },
   "devDependencies": {
     "prettier": "^2.0.5",
-    "snowpack": "^2.5.2"
+    "snowpack": "^2.6.3"
   },
   "browserslist": [
     "> 1%",
